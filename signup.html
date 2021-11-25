@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+	<div>
+		<form style="text-align:center">
+			<label for="email">Enter Email Here</label>
+			<input type="email" id="email" name="email" placeholder="Email" required>
+			<br>
+			<br>
+			
+			<label for="password">Enter Your Password Here</label>
+			<input type="password" id="password" name="password" minlength="6" placeholder="Password" required>
+			<br>
+			<br>
+			
+			<label for="birthday">Enter Your Birthday Here:</label>
+			<input type="date" id="birthday" name="birthday" required>
+			<br>
+			<br>
+			
+			<label for="fname">First name:</label>
+			<input type="text" id="fname" name="fname" pattern="[A-Z]+[a-zA-z]*$" placeholder="First Name" required>
+			<br><br>
+			
+			<label for="lname">Last name:</label>
+			<input type="text" id="lname" name="lname" pattern="[A-Z]+[a-zA-z]*$" placeholder="Fisrt Name" required>
+			<br><br>
+			
+			<label for="phone">Enter Your Phone Number Here:</label>
+			<input type="tel" id="phone" name="phone" pattern="\d{10}" placeholder="xxx xxx xxxx">
+			<br>
+			<br>
+			
+			<button>Submit Here</button>
+			
+		</form>
+	</div>
+</body>
+</html>
